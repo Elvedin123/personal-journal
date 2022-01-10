@@ -34,4 +34,23 @@ wireframes!
 - Show more recent first
 - Store them somewhere
 
+## Post-MVP
+
+## Timeframes
+
+| Component                                                 | Priority | Estimated Time | Time Invested | Actual Time |
+| --------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Completing the project Pitch|    H     |      2hrs      |     2hrs      |    3hrs     |
+| Setting up AirTable                                       |    H     |      1hrs      |    2.5hrs     |   2.5hrs    |
+| NavBar setup                                              |    H     |      5hr       |               |             |
+| Drop down menu for routes                                  |    H     |      5hrs      |               |             |
+| Create all routing in App                                 |    H     |      5hr       |               |             |
+| Create edit and delete button functionality                                         |    H     |      5hrs      |               |             |
+| Create a functioning form                           |    H     |      5hrs      |               |             |
+| Creating a submit function                     |    M     |      5hrs      |               |             |
+| Sorting displayed elements in chronological order                           |    H     |      3hrs      |               |             |
+| Styling                         |    H     |      5hr       |               |             |
+
+| Total                                                     |    H     |     41hrs      |               |             |
+
 
