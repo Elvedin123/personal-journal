@@ -52,4 +52,27 @@ wireframes!
 | Styling                         |    H     |      5hr       |               |             |
 | Total                                                     |    H     |     41hrs      |               |             |
 
+## SWOT Analysis
+
+### Strengths:
+
+- I enjoy the orginization of react and being able to utilize multiple components that can be imported to the main app.
+- I like the usage of link and router making access to components clean and efficient
+- My biggest strength is my work drive, I don't know how to give up and will push forward to understand implimentations of code.
+### Weaknesses:
+
+- I am still struggling to grasp react efficiently and always have to look back at notes, google, and peer help to understand issues.
+- Since i dont give up i usually end up extremely frustrated when i dont find a solution. Which burns me out ultimately.
+
+### Opportunities:
+
+- This project gives me an opportunity to use react to build an application in my own way.
+- This also gives me ideas to create dynamic projects using external api and not airtable.
+- Lastly im looking forward to implementing proper npm packages that can clean up my application and make it look according to plan.
+
+### Threats:
+
+- My biggest threat is my mental game, since i do struggle with react in the mean time i am worried that i will burn myself out on roadblocks
+- Being new to utilizing npm packages im concerened that i can potentially mess up and need to use a basic alternative which will take time
+
 
