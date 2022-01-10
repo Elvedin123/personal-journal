@@ -27,3 +27,11 @@ wireframes!
 }
 ```
 
+## MVP
+
+-Add entries with a date and text
+-Entries have a date
+-Show more recent first
+-Store them somewhere
+
+
