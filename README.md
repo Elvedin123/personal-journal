@@ -36,6 +36,19 @@ wireframes!
 
 ## Post-MVP
 
+## Project Schedule
+
+| Day           | Deliverable                                                         | Status     |
+| ------------- | ------------------------------------------------------------------- | ---------- |
+| January 8-10  | Project Pitch                  | Complete   |
+| January 10    | Project Approval                                                    | Incomplete |
+| January 10-11 | Core structure, and basic styling                 | Incomplete |
+| January 11-12 | Code that manipulates entry data via form | Incomplete |
+| January 13    | Code that manipulates delete and edit functions for entries                   | Incomplete |
+| January 14    | Finish up all my VPs                                                | Incomplete |
+| January 15-17 | Mvp                                                                 | Incomplete |
+| January 18    | Presentation                                                        | Incomplete |
+
 ## Timeframes
 
 | Component                                                 | Priority | Estimated Time | Time Invested | Actual Time |
