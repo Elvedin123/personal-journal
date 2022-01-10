@@ -10,5 +10,5 @@ This project will be a data base that will save data entries that contain whatev
 wireframes!
 
 ## Component Hierarchy
-[This](https://whimsical.com/component-hierarchy-KNzKKFZ2Fgi3JVtcxntCkB)is my component hierarchy
+[This](https://whimsical.com/component-hierarchy-KNzKKFZ2Fgi3JVtcxntCkB)is my component hierarchy where I display how I plan to construct my application.
 
