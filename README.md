@@ -50,7 +50,6 @@ wireframes!
 | Creating a submit function                     |    M     |      5hrs      |               |             |
 | Sorting displayed elements in chronological order                           |    H     |      3hrs      |               |             |
 | Styling                         |    H     |      5hr       |               |             |
-
 | Total                                                     |    H     |     41hrs      |               |             |
 
 
