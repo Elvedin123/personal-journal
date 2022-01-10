@@ -9,3 +9,6 @@ This project will be a data base that will save data entries that contain whatev
 [These](https://whimsical.com/myjournal-mobile-Nz8qw1TN7RsV8KGdmRctkC) are my mobile 
 wireframes!
 
+## Component Hierarchy
+[This]is my component hierarchy
+
