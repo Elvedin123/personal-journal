@@ -5,3 +5,6 @@ This project will be a data base that will save data entries that contain whatev
 
 ## Wireframes
 [These](https://whimsical.com/myjournal-LLFU1n4sutZyLfA2JqMryF) are my webpage wireframes!
+[These](https://whimsical.com/myjournal-mobile-Nz8qw1TN7RsV8KGdmRctkC) are my mobile 
+wireframes!
+
