@@ -12,3 +12,17 @@ wireframes!
 ## Component Hierarchy
 [This](https://whimsical.com/component-hierarchy-KNzKKFZ2Fgi3JVtcxntCkB)is my component hierarchy where I display how I plan to construct my application.
 
+## API and Data Sample
+
+```json
+{
+    "id": "receEcKQBzRAIvNmr",
+    "fields": {
+        "title": "Food",
+        "topic": "Went to a new restaurant!",
+        "notes": "I ordered this amazing dish called bla bla and it was super delicious! I cant wait to make my own version\n",
+        "date": "2022-01-04"
+    },
+    "createdTime": "2022-01-09T01:57:24.000Z"
+}```
+
