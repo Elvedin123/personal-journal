@@ -15,7 +15,8 @@ export default function Form(props) {
       <input
         id="topic"
         value={topic}
-        placeholder="Add a Topic">
+        placeholder="Add a Topic"
+        onChange={props.handleTextInput}>
       </input>
     </form>
   )
