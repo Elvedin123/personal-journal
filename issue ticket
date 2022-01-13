@@ -1,0 +1,19 @@
+---
+name: P2 Issue
+about: useparams has already been declared
+title: ''
+labels: ''
+assignees: ''
+
+---
+
+**Describe the bug**
+i imported useParams from react router dom and deconstruced id into it but im getting  a Message
+saying its been declared
+**Error Message**
+identifier useparams has already been declared
+
+**2 Links you found while researching the bug**
+
+1.
+2.
