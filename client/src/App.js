@@ -10,7 +10,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Entrylist />}>Home</Route>
-        <Route path="//:id" element={<Entrydetail />}>Entry</Route>
+        <Route path="/entry/:id" element={<Entrydetail />}>Entry</Route>
         <Route path="/new">New</Route>
       </Routes>
 

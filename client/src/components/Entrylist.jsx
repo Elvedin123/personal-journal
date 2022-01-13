@@ -16,11 +16,12 @@ export default function Entrylist() {
 
   return (
     <div>
+      <h1>Home</h1>
       <div>
         {entries.map((entry) => {
           return (
             <li className='entry-container' key={entry.id}>
-              <Link className='entry-card' to={`//${entry.id}`}>
+              <Link className='entry-card' to={`/entry/${entry.id}`}>
                 <div>
                   <h1>{entry.fields.title}</h1>
                   <h3>{entry.fields.topic}</h3>

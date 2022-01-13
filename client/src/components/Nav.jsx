@@ -7,7 +7,7 @@ export default function Nav() {
       <Link to="/">
         <h1>myJournal</h1>
       </Link>
-      <h1>Home</h1>
+
       <Link to="/new">New</Link>
 
     </div>
