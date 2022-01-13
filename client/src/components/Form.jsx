@@ -2,8 +2,21 @@
 export default function Form(props) {
   const { title, topic, info, date } = props.input
   return (
-    <div>
+    <form onSubmit={props.handleSubmit}>
+      <lable>Title</lable>
+      <input
+        id="title"
+        value={title}
+        placeholder="Add a Title"
+        onChange={props.handleTextInput}>
+      </input>
 
-    </div>
+      <label>Topic</label>
+      <input
+        id="topic"
+        value={topic}
+        placeholder="Add a Topic">
+      </input>
+    </form>
   )
 }
