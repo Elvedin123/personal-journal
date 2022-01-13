@@ -19,5 +19,14 @@
 h1{
   font-size: 20px;
 }
+.entry-container {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.entry-card{
+  text-decoration: none;
+  color:black
+}
 }
 
