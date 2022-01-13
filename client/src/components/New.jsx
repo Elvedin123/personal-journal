@@ -10,10 +10,20 @@ const default_input = {
 }
 export default function New() {
   const [input, setInput] = useState(default_input)
+  const navigate = useNavigate();
+  const handleTextInput = (event) => {
+    const { id, value } = event.target
+    setInput((prevInput) => ({
+      ...prevInput,
+      [id]: value,
+    }))
+  }
   return (
     <div>
       <h1>New Entry</h1>
-      <Form input={input} />
+      <Form
+        input={input}
+        handleTextInput={handleTextInput} />
     </div>
   )
 }
