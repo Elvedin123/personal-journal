@@ -18,12 +18,25 @@ export default function New() {
       [id]: value,
     }))
   }
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const fields = input;
+    console.log(fields)
+    const res = await api.post("/", { fields });
+    console.log(res.data);
+    setInput(default_input);
+    navigate("/")
+
+  }
   return (
     <div>
       <h1>New Entry</h1>
       <Form
         input={input}
-        handleTextInput={handleTextInput} />
+        handleTextInput={handleTextInput}
+        handleSubmit={handleSubmit}
+        type="Create Entry"
+      />
     </div>
   )
 }

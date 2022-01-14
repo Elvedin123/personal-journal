@@ -25,7 +25,7 @@ export default function Entrydetail() {
         <p>{entry.fields?.info}</p>
         <time>{entry.fields?.date}</time>
       </div>
-      <Deletebutton />
+      <Deletebutton entry={entry} />
     </div>
   )
 }

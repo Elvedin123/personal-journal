@@ -3,7 +3,7 @@ export default function Form(props) {
   const { title, topic, info, date } = props.input
   return (
     <form onSubmit={props.handleSubmit}>
-      <lable>Title</lable>
+      <label>Title</label>
       <input
         id="title"
         value={title}
@@ -26,6 +26,9 @@ export default function Form(props) {
         placeholder="Add your Info"
         onChange={props.handleTextInput}>
       </input>
+
+      <button>{props.type}</button>
     </form>
+
   )
 }
