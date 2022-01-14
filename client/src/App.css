@@ -28,32 +28,38 @@ h6{
   padding: 5px;
 }
 .title{
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
   color: black;
 }
 .card{
   text-decoration: none;
 }
+.image{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-vRpVT81Gi5WE551Ds93RkGzAFtaR8MpH-Q&usqp=CAU');
+  background-position: center;
 
+background-size: contain;;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
 .entry-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 250px;
+  height: 95vh;
   list-style-type: none;
-  margin: 0;
+  margin: auto ;
+  margin-right: 10px;
   padding: 20px;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-vRpVT81Gi5WE551Ds93RkGzAFtaR8MpH-Q&usqp=CAU');
-  background-position: center;
-background-repeat: no-repeat;
-background-size: cover;;
-  
+text-align: center;
 }
 .entry-card{
   text-decoration: none;
   color:black;
   padding-bottom:5px ;
-  width: 250px;
+  width: 60vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   margin: 10px;

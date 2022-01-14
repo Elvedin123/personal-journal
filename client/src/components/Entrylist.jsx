@@ -16,22 +16,24 @@ export default function Entrylist() {
 
   return (
     <div className='entries'>
-      <h1>Home</h1>
-      <div className='entry-container'>
-        {entries.map((entry) => {
-          return (
-            <li key={entry.id}>
-              <Link className='card' to={`/entry/${entry.id}`}>
-                <div className='entry-card'>
-                  <h1 className='card-title'>{entry.fields.title}</h1>
-                  <br></br>
-                  <br></br>
-                  <time>{entry.fields.date}</time>
-                </div>
-              </Link>
-            </li>
-          )
-        })}
+      <h2>Home</h2>
+      <div className='image'>
+        <div className='entry-container'>
+          {entries.map((entry) => {
+            return (
+              <li key={entry.id}>
+                <Link className='card' to={`/entry/${entry.id}`}>
+                  <div className='entry-card'>
+                    <h1 className='card-title'>{entry.fields.title}</h1>
+                    <br></br>
+                    <br></br>
+                    <time>{entry.fields.date}</time>
+                  </div>
+                </Link>
+              </li>
+            )
+          })}
+        </div>
       </div>
 
     </div>

@@ -2,7 +2,7 @@ import Calendar from 'react-calendar'
 
 export default function Form(props) {
   const { title, topic, info } = props.input
-
+  console.log(props.value)
   return (
     <form onSubmit={props.handleSubmit}>
       <label>Title</label>
