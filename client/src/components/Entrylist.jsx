@@ -15,17 +15,17 @@ export default function Entrylist() {
   }, [])
 
   return (
-    <div>
+    <div className='entries'>
       <h1>Home</h1>
-      <div>
+      <div className='entry-container'>
         {entries.map((entry) => {
           return (
-            <li className='entry-container' key={entry.id}>
-              <Link className='entry-card' to={`/entry/${entry.id}`}>
-                <div>
-                  <h1>{entry.fields.title}</h1>
-                  <h3>{entry.fields.topic}</h3>
-                  <p>{entry.fields.info}</p>
+            <li key={entry.id}>
+              <Link className='card' to={`/entry/${entry.id}`}>
+                <div className='entry-card'>
+                  <h1 className='card-title'>{entry.fields.title}</h1>
+                  <br></br>
+                  <br></br>
                   <time>{entry.fields.date}</time>
                 </div>
               </Link>

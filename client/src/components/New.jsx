@@ -9,7 +9,8 @@ const default_input = {
 
 }
 export default function New() {
-  const [input, setInput] = useState(default_input)
+  const [input, setInput] = useState(default_input);
+  const [value, onChange] = useState(new Date());
   const navigate = useNavigate();
   const handleTextInput = (event) => {
     const { id, value } = event.target
@@ -20,7 +21,7 @@ export default function New() {
   }
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const fields = input;
+    const fields = { ...input, date: value };
     console.log(fields)
     const res = await api.post("/", { fields });
     console.log(res.data);
@@ -35,6 +36,8 @@ export default function New() {
         input={input}
         handleTextInput={handleTextInput}
         handleSubmit={handleSubmit}
+        value={value}
+        onChange={onChange}
         type="Create Entry"
       />
     </div>

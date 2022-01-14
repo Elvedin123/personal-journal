@@ -1,6 +1,8 @@
+import Calendar from 'react-calendar'
 
 export default function Form(props) {
-  const { title, topic, info, date } = props.input
+  const { title, topic, info } = props.input
+
   return (
     <form onSubmit={props.handleSubmit}>
       <label>Title</label>
@@ -26,7 +28,8 @@ export default function Form(props) {
         placeholder="Add your Info"
         onChange={props.handleTextInput}>
       </input>
-
+      <label>Date</label>
+      <Calendar value={props.value} onChange={props.onChange} />
       <button>{props.type}</button>
     </form>
 
