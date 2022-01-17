@@ -17,15 +17,17 @@ export default function Entrydetail() {
     fetchEntry()
   }, [])
   return (
-    <div>
-      <h1>Entry</h1>
-      <div>
-        <h2>{entry.fields?.title}</h2>
-        <h3>{entry.fields?.topic}</h3>
-        <p>{entry.fields?.info}</p>
-        <time>{entry.fields?.date}</time>
+    <div className='main-detail'>
+      <div className='detail-container'>
+        <h1 className='entry-title'>Entry</h1>
+        <div className='detail-card'>
+          <h2 className='detail'>{entry.fields?.title}</h2>
+          <h3 className='detail-topic'>Topic: {entry.fields?.topic}</h3>
+          <p className='p'>{entry.fields?.info}</p>
+          <time>{entry.fields?.date.split('T')[0]}</time>
+        </div>
+        <Deletebutton className='delete' entry={entry} />
       </div>
-      <Deletebutton entry={entry} />
     </div>
   )
 }

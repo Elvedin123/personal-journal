@@ -16,7 +16,7 @@ export default function Entrylist() {
 
   return (
     <div className='entries'>
-      <h2>Home</h2>
+      <h2 className='home'>Home</h2>
       <div className='image'>
         <div className='entry-container'>
           {entries.map((entry) => {
@@ -27,7 +27,7 @@ export default function Entrylist() {
                     <h1 className='card-title'>{entry.fields.title}</h1>
                     <br></br>
                     <br></br>
-                    <time>{entry.fields.date}</time>
+                    <time>{entry.fields.date.split('T')[0]}</time>
                   </div>
                 </Link>
               </li>

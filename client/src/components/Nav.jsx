@@ -8,7 +8,7 @@ export default function Nav() {
         <h1 >myJournal</h1>
       </Link>
 
-      <div className='add-button'><h6>New Entry  </h6><Link to="/new"><button>+</button></Link></div>
+      <div className='add-button'><h6 className='button-title'>New Entry</h6><Link to="/new"><button>+</button></Link></div>
 
     </div>
   )

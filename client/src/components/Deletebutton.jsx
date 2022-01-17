@@ -6,5 +6,5 @@ export default function Deletebutton(props) {
     const res = await api.delete(`${props.entry.id}`)
     navigate(`/`)
   }
-  return <button onClick={handleDelete}>Delete Entry</button>
+  return <button className='delete' type="button" onClick={handleDelete}>Delete Entry</button>
 }
