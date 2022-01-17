@@ -2,6 +2,175 @@
 .App {
   text-align: center;
 }
+*{
+  margin: 0;
+  
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(214, 165, 100, 0.7);
+  border-bottom:  thin solid  black;
+}
+.add-button{
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+}
+.button-title{
+  font-family: 'Journal';
+  font-size: 22px;
+}
+h6{
+  padding: 5px;
+}
+.title{
+  font-size: 26px;
+  font-family: 'Londrina Shadow';
+  text-decoration: none;
+  color: black;
+}
+.home{
+  font-family: 'Londrina Shadow';
+  font-size: 42px;
+}
+.card{
+  text-decoration: none;
+}
+.image{
+  background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhlYWRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60');
+  background-position: center;
+  margin-top: 20px;
+  height: 95vh;
+background-size: cover;;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.entry-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow:scroll;
+   height:400px;
+  /* width: 400px; */
+  /* border: 2px solid black; */
+  list-style-type: none;
+  margin: auto ;
+  margin-right: 10px;
+  padding: 20px;
+text-align: center;
+}
+.entry-card{
+  text-decoration: none;
+  color:black;
+  padding-bottom:5px ;
+  width: 40vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  margin: 10px;
+  background-color: rgb(214, 165, 100, 0.4);
+  border:thin solid black;
+  border-radius: 5%;
+  color: black;
+}
+.card-title{
+  font-size: 32px;
+  font-family: 'Journal';
+}
+time{
+  font-size: 14px;
+}
+.button-title{
+  font-family: 'Journal';
+  font-size: 22px;
+}
+.entry-title{
+font-size: 42px;
+}
+.main-detail{
+  background-image: url('https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGhlYWRlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60');
+  background-position: center;
+  margin-top: 20px;
+  height: 95vh;
+background-size: cover;;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.detail-card{
+
+}
+.entry-title {
+  font-family: 'Londrina Shadow';
+}
+.detail{
+  font-family: 'Journal';
+  font-size: 30px;
+}
+.detail-topic{
+  font-family: 'Journal';
+  font-size: 30px;
+}
+.p{
+  font-family: 'Journal';
+  font-size: 30px;
+}
+.delete {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 20px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  margin-top: 5px;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
+}
+.new{
+  font-family: 'Londrina Shadow';
+}
+.form-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column ;
+  align-items: center;
+  margin-top: 10px;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  background-color: rgb(214, 165, 100, 0.4) ;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
 /* ---------------------------
 ----------phone screen----- */
 @media only screen and (max-width: 420px){
@@ -41,6 +210,9 @@ h6{
   text-decoration: none;
 }
 .image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-vRpVT81Gi5WE551Ds93RkGzAFtaR8MpH-Q&usqp=CAU');
   background-position: center;
 
