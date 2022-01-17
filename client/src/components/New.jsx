@@ -31,7 +31,7 @@ export default function New() {
   }
   return (
     <div>
-      <h1>New Entry</h1>
+      <h1 className="new">New Entry</h1>
       <Form
         input={input}
         handleTextInput={handleTextInput}

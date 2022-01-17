@@ -140,5 +140,8 @@ time{
   will-change: transform,opacity;
   z-index: 0;
 }
+.new{
+  font-family: 'Londrina Shadow';
+}
 }
 
