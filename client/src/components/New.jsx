@@ -33,7 +33,7 @@ export default function New() {
     <div>
       <h1 className="new">New Entry</h1>
       <Form
-        className='form'
+
         input={input}
         handleTextInput={handleTextInput}
         handleSubmit={handleSubmit}

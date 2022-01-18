@@ -6,7 +6,7 @@ export default function Form(props) {
   return (
     <div className='form-container'>
       <form className='form' onSubmit={props.handleSubmit}>
-        <label>Title</label>
+        <label className='new-title'>Title</label>
         <input
           id="title"
           value={title}
@@ -14,7 +14,7 @@ export default function Form(props) {
           onChange={props.handleTextInput}>
         </input>
 
-        <label>Topic</label>
+        <label className='new-topic'>Topic</label>
         <input
           id="topic"
           value={topic}
@@ -22,14 +22,14 @@ export default function Form(props) {
           onChange={props.handleTextInput}>
         </input>
 
-        <label>Info</label>
+        <label className='new-info'>Info</label>
         <input
           id="info"
           value={info}
           placeholder="Add your Info"
           onChange={props.handleTextInput}>
         </input>
-        <label>Date</label>
+        <label className='new-date'>Date</label>
         <Calendar value={props.value} onChange={props.onChange} />
         <button>{props.type}</button>
       </form>

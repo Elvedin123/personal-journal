@@ -28,8 +28,10 @@ export default function Entrydetail() {
           <h3 className='detail-topic'>Topic: {entry.fields?.topic}</h3>
           <p className='p'>{entry.fields?.info}</p>
           <time>{entry.fields?.date.split('T')[0]}</time>
+          <br></br>
+          <Deletebutton entry={entry} />
         </div>
-        <Deletebutton entry={entry} />
+
         {/* </div> */}
       </div>
     </>
