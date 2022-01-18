@@ -15,7 +15,7 @@ export default function Entrydetail() {
       console.log(res.data)
     }
     fetchEntry()
-  }, [])
+  }, [id])
   return (
     <>
       <h1 className='entry-title'>Entry</h1>
