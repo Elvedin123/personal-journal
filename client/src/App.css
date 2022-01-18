@@ -384,7 +384,7 @@ background-size: cover;;
   justify-content: center;
   flex-direction: column;
   width: 50vw;
-  height: 60vh;
+  height: 70vh;
   text-align: center;
   background-color: rgb(214, 165, 100, 0.7) ;
   padding: 15px;
@@ -397,12 +397,14 @@ background-size: cover;;
 }
 #title{
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .new-topic{
   font-size: 26px;
 }
 #topic{
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 .new-info{
   font-size: 26px;
